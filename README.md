@@ -10,7 +10,7 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 ### Planejamento de Projeto
 
 -[X]Estrutural caixa principal
--[ ]Estilizar caixa principal
+-[X]Estilizar caixa principal
 -[ ]Estrutural caixa cima
 -[ ]Estilizar caixa cima
 -[ ]Estrutural caixa médio
