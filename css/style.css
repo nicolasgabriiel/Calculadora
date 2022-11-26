@@ -1,12 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Space+Grotesk&display=swap');
+body{
+    font-family: 'League Spartan', sans-serif;
+}
 main{
     padding: 119.5px 0;
-    background-color: lightcoral;
+    background-color: #3B4664;
     width: 100%;
-   
 }
 .corpo-calculadora{
     width: 660px;
     height: 700px;
     background-color: red;
     margin: auto;
+}
+.container-numeros-tema{
+background-color: blue;
+text-align: right;
+height: 20px;
+}
+.numeros-tema{
+    color: white;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+    line-height: 22px;
+}
+.container-alto{
+ background-color: blueviolet;
+}
+.container-alto h1{
+    color: white;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+}
+.container-alto p{
+    margin: 0 10px 0 486px;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: text-top;
+}
+.container-clique{
+display: inline-block;
+width: 70px;
+height: 25px;
+background-color: #3B4664;
+}
+.bolinha{
+ background-color: red;
+ height: 25px;
+ width: 25px;
+ border-radius: 12.5px;
+position: absolute;
+}
+.clique{
+    display: inline-block;
+    height: 25px;
+    width: calc(60px / 3);
+    background-color: white;
+}
+.clique:hover{
+    cursor: pointer;
 }

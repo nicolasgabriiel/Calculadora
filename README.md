@@ -11,7 +11,7 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 
 -[X]Estrutural caixa principal
 -[X]Estilizar caixa principal
--[ ]Estrutural caixa cima
+-[X]Estrutural caixa cima
 -[ ]Estilizar caixa cima
 -[ ]Estrutural caixa médio
 -[ ]Estilizar caixa média
