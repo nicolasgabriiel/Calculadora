@@ -13,8 +13,8 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[X]Estilizar caixa principal
 -[X]Estrutural caixa cima
 -[X]Estilizar caixa cima
--[ ]Receber inputs dos temas
--[ ]Criar lógica dos temas
+-[X]Receber inputs dos temas
+-[X]Criar lógica dos temas
 -[ ]Estrutural caixa médio
 -[ ]Estilizar caixa média
 -[ ]Estrutural caixa baixo
