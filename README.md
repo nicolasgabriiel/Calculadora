@@ -1,7 +1,7 @@
 ###### Calculadora
-O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse projeto foi retirado do site [FrontEndMentor](), para acessar a página do exemplo de design clique [aqui]().
+O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse projeto foi retirado do site [FrontEndMentor](https://www.frontendmentor.io/home), para acessar a página do exemplo de design clique [aqui](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).
 
->Para acessar o link do deploy clique [aqui]()
+>Para acessar o link do deploy clique [aqui](https://nicolasgabriiel.github.io/Calculadora/)
 
 ### Tecnologias Utilizadas
 
@@ -12,7 +12,9 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[X]Estrutural caixa principal
 -[X]Estilizar caixa principal
 -[X]Estrutural caixa cima
--[ ]Estilizar caixa cima
+-[X]Estilizar caixa cima
+-[ ]Receber inputs dos temas
+-[ ]Criar lógica dos temas
 -[ ]Estrutural caixa médio
 -[ ]Estilizar caixa média
 -[ ]Estrutural caixa baixo
@@ -21,8 +23,6 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[ ]Estilizar botões da caixa de baixo
 -[ ]Estilizar active nos botões pra dar sensação de pressionar
 -[ ]Criar hover nos botoes 
--[ ]Receber inputs dos temas
--[ ]Criar lógica dos temas
 -[ ]Estilizar os temas 
 -[ ]Receber inputs dos botões
 -[ ]Criar lógica de emitir os inputs na tela

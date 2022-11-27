@@ -32,6 +32,7 @@ height: 20px;
     display: inline-block;
     font-size: 32px;
     font-weight: bold;
+
 }
 .container-alto p{
     margin: 0 10px 0 486px;
@@ -40,27 +41,34 @@ height: 20px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
-    vertical-align: text-top;
+    vertical-align: middle;
+   
 }
 .container-clique{
 display: inline-block;
 width: 70px;
 height: 25px;
-background-color: #3B4664;
-}
-.bolinha{
- background-color: red;
- height: 25px;
- width: 25px;
- border-radius: 12.5px;
-position: absolute;
+background-color:#252D45 ;
+vertical-align: -5%;
+border-radius: 12.5px;
+
+
 }
 .clique{
+    border: 0;
     display: inline-block;
-    height: 25px;
-    width: calc(60px / 3);
-    background-color: white;
+    height: 16px;
+    width: 16px;
+    margin: 4px 1px;
+    background-color: #252D45;
+    border-radius: 8px;  
+}
+.clique:first-child{
+    margin-left: 5px;
 }
 .clique:hover{
     cursor: pointer;
+}
+.temaum{
+    background-color: #D43D31;
 }
