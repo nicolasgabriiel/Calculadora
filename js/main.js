@@ -19,4 +19,4 @@ botaoTemaTres.onclick = function mudarParaTemaTres (){
     botaoTemaUm.style.backgroundColor = "#252D45"
     botaoTemaDois.style.backgroundColor = "#252D45"
     botaoTemaTres.style.backgroundColor = "#D43D31"
-}
+}   

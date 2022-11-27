@@ -3,19 +3,17 @@ body{
     font-family: 'League Spartan', sans-serif;
 }
 main{
-    padding: 100px 0;
+    padding: 75.5px 0;
     background-color: #3B4664;
     width: 100%;
 }
 .corpo-calculadora{
     width: 620px;
     height: auto;
-    background-color: red;
     margin: auto;
 }
 /*   Container de cima    */
 .container-numeros-tema{
-background-color: blue;
 text-align: right;
 height: 20px;
 }
@@ -25,15 +23,11 @@ height: 20px;
     margin: 0 10px 0 0;
     line-height: 22px;
 }
-.container-alto{
- background-color: blueviolet;
-}
 .container-alto h1{
     color: white;
     display: inline-block;
     font-size: 32px;
     font-weight: bold;
-
 }
 .container-alto p{
     margin: 0 10px 0 446px;
@@ -79,7 +73,7 @@ border-radius: 12.5px;
 }
 .numeros-exibidos{
     color: white;
-    font-size: 55px;
+    font-size: 60px;
     font-weight: bold;
     text-align: right;
     margin-right: 30px;
@@ -127,6 +121,18 @@ border-radius: 12.5px;
 .botoes-maiores button:last-child{
     background-color: #D13F30;
     color: #F8FFFF ;
-    border-color: #972416 
+    border-color: #972416 ;
+}
+.botoes-maiores button:active, .botoes-menores button:active {
+    background-color: #B3A296 ;
+}
+.botoes-menores button:nth-child(4):active, .botoes-maiores button:first-child:active{
+  background-color: #424E74 ;
+}
+.botoes-maiores button:last-child:active{
+    background-color: #972416  ;
+}
+.botoes-maiores button:hover, .botoes-menores button:hover {
+    cursor: pointer;
 }
 

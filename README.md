@@ -21,7 +21,7 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[X]Estilizar caixa baixo
 -[X]Estrutural botões da caixa de baixo
 -[X]Estilizar botões da caixa de baixo
--[ ]Estilizar active nos botões pra dar sensação de pressionar
+-[X]Estilizar active nos botões pra dar sensação de pressionar
 -[ ]Criar hover nos botoes 
 -[ ]Estilizar os temas 
 -[ ]Receber inputs dos botões
