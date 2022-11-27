@@ -15,12 +15,12 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[X]Estilizar caixa cima
 -[X]Receber inputs dos temas
 -[X]Criar lógica dos temas
--[ ]Estrutural caixa médio
--[ ]Estilizar caixa média
--[ ]Estrutural caixa baixo
--[ ]Estilizar caixa baixo
--[ ]Estrutural botões da caixa de baixo
--[ ]Estilizar botões da caixa de baixo
+-[X]Estrutural caixa médio
+-[X]Estilizar caixa média
+-[X]Estrutural caixa baixo
+-[X]Estilizar caixa baixo
+-[X]Estrutural botões da caixa de baixo
+-[X]Estilizar botões da caixa de baixo
 -[ ]Estilizar active nos botões pra dar sensação de pressionar
 -[ ]Criar hover nos botoes 
 -[ ]Estilizar os temas 
