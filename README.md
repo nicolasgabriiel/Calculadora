@@ -24,7 +24,7 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[X]Estilizar active nos botões pra dar sensação de pressionar
 -[X]Criar hover nos botoes 
 -[X]Criar Lógica dos temas
--[ ]Estilizar os temas 
+-[X]Estilizar os temas 
 -[ ]Receber inputs dos botões
 -[ ]Criar lógica de emitir os inputs na tela
 -[ ]Criar lógica de como calcular

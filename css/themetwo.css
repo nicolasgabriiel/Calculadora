@@ -1,0 +1,18 @@
+.temaum{background-color: #D3CDCD;}
+.temadois{background-color: #FF8B38;}
+.tematres{background-color: #D3CDCD;}
+main{background-color: #E6E6E6;}
+.numeros-tema{color: #242424;}
+.container-alto h1{color: #242424;}
+.container-alto p{color: #242424;}
+.container-clique{background-color:#D3CDCD ;}
+.container-medio{background-color: #EEEEEE;}
+.container-baixo{background-color: #D3CDCD;}
+.botoes-menores button{background-color: #E5E4E0; color: #242424; border-bottom: 5px solid #A69C92;}
+.botoes-maiores button{background-color: #E5E4E0; color: #242424; border-bottom: 5px solid #A69C92;}
+.botoes-maiores button:last-child{background-color: #FF8B38;color: #FFFCE8 ;border-color: #8F3800 ;}
+.botoes-maiores button:active, .botoes-menores button:active {background-color: #A69C92 ;}
+.botoes-maiores button:last-child:active{ background-color: #8F3800 ;}
+.botoes-menores button:nth-child(4), .botoes-maiores button:first-child{background-color: #62B5BD;color: #F8FFFF ;border-color: #1E6169 ;}
+.botoes-menores button:nth-child(4):active, .botoes-maiores button:first-child:active{background-color: #1E6169 ;}
+.numeros-exibidos{color: #242424;}

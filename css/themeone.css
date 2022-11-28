@@ -1,1 +1,18 @@
+.temaum{background-color: #D43D31;}
+.temadois{background-color: #252D45;}
+.tematres{background-color: #252D45;}
 main{background-color: #3B4664;}
+.numeros-tema{color: white;}
+.container-alto h1{color: white;}
+.container-alto p{color: white;}
+.container-clique{background-color:#252D45 ;}
+.container-medio{background-color: #181F32;}
+.container-baixo{background-color: #252D44;}
+.botoes-menores button{background-color: #EAE3DB; color: #444C5E; border-bottom: 5px solid #B3A296;}
+.botoes-maiores button{background-color: #EAE3DB; color: #444C5E; border-bottom: 5px solid #B3A296;}
+.botoes-maiores button:last-child{background-color: #D13F30;color: #F8FFFF ;border-color: #972416 ;}
+.botoes-maiores button:active, .botoes-menores button:active {background-color: #B3A296 ;}
+.botoes-menores button:nth-child(4):active, .botoes-maiores button:first-child:active{background-color: #424E74 ;}
+.botoes-maiores button:last-child:active{ background-color: #972416 ;}
+.botoes-menores button:nth-child(4), .botoes-maiores button:first-child{background-color: #647299;color: #F8FFFF ;border-color: #424E74 ;}
+.numeros-exibidos{color: white;}
