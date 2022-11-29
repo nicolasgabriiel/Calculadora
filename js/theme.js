@@ -16,5 +16,3 @@ botaoTemaDois.onclick = function mudarParaTemaDois (){
 botaoTemaTres.onclick = function mudarParaTemaTres (){
     link.href = "css/themethree.css";
 }   
-
-console.log(link)
