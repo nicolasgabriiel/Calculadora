@@ -26,8 +26,8 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[X]Criar Lógica dos temas
 -[X]Estilizar os temas 
 -[X]Receber input da tela
--[ ]Receber inputs dos botões
--[ ]Criar lógica de como calcular
--[ ]Criar lógica de emitir os inputs na tela
+-[X]Receber inputs dos botões
+-[X]Criar lógica de como calcular
+-[X]Criar lógica de emitir os inputs na tela
 
 
