@@ -41,6 +41,17 @@ function calcular()
     console.log(resultado.length)
 }
 
+//Armazenando os botoes em lista
+
+
+const teclas = document.querySelectorAll('.tecla')
+
+console.log(teclas)
+
+
+
+
+
 
 
 
