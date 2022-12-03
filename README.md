@@ -29,7 +29,7 @@ O projeto traz uma calculadora online  e gratuita para cálculos simples. Esse p
 -[X]Receber inputs dos botões
 -[X]Criar lógica de como calcular
 -[X]Criar lógica de emitir os inputs na tela
--[ ]Estilizar o Responsivo
+-[X]Estilizar o Responsivo
 
 ### Extras
 

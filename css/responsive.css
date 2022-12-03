@@ -1,0 +1,29 @@
+/* Responsividade do Projeto */
+
+@media screen and (max-width: 650px) {
+    .corpo-calculadora{
+        scale: 0.9;
+        width: 100%;
+    }
+    .container-alto p{
+        left: 25%;
+    }
+}
+@media screen and (max-width: 450px){
+    .corpo-calculadora{
+        scale: 0.9;
+        width: 100%;
+    }
+    .container-alto p{
+        left: 20%;
+    }
+}
+@media screen and (max-width: 310px){
+    .corpo-calculadora{
+        scale: 0.5;
+        width: 100%
+    }
+    .container-alto p{
+        left: 0px;
+    }
+}

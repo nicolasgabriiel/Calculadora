@@ -32,13 +32,15 @@
             <div class="container-alto">
             
                 <h1>calc</h1>
-                <p>theme</p>
+             
+                    <p>theme</p>
 
-                <div class="container-clique"><!--Botoes dos temas-->
-                    <button class="clique temaum" id="temaum"></button>
-                    <button class="clique temadois" id="temadois"></button>
-                    <button class="clique tematres" id="tematres"></button>  
-                </div><!--              Botoes dos temas                -->
+                    <div class="container-clique"><!--Botoes dos temas-->
+                        <button class="clique temaum" id="temaum"></button>
+                        <button class="clique temadois" id="temadois"></button>
+                        <button class="clique tematres" id="tematres"></button>  
+                    </div><!--              Botoes dos temas                -->
+           
 
             </div><!--Container do Alto-->
 
@@ -52,7 +54,7 @@
                     <button id="tecla7" value="7" onclick="insert('7')">7</button>
                     <button id="tecla8" value="8" onclick="insert('8')">8</button>
                     <button id="tecla9" value="9" onclick="insert('9')">9</button>
-                    <button id="del" value="DEL" onclick="back()">DEL</button>
+                    <button id="del" value="DEL" onclick="back()" class="letras">DEL</button>
                     <button id="tecla4" value="4" onclick="insert('4')">4</button>
                     <button id="tecla5" value="5" onclick="insert('5')">5</button>
                     <button id="tecla6" value="6" onclick="insert('6')">6</button>
@@ -68,7 +70,7 @@
                 </div><!--Botes menores-->
 
                 <div class="botoes-maiores">
-                    <button id="reset" value="RESET" onclick="clean()">RESET</button>
+                    <button id="reset" value="RESET" class="letras" onclick="clean()">RESET</button>
                     <button id="calcular" value="IGUAL" onclick="calcular()">=</button>
                 </div><!--Botes maiores-->
 
