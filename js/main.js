@@ -44,9 +44,8 @@ function calcular()
     }
     console.log(resultado.length)
 }
-
+// Variaveis e constantes para pegar os elementos buttons
  let tecla;
-
  const dividir = document.getElementById('dividir')
  const mais = document.getElementById('mais')
  const menos = document.getElementById('menos')
@@ -56,15 +55,13 @@ function calcular()
  const del = document.getElementById('del')
  const reset = document.getElementById('reset')
 
-
-
-
   //Funcionamento por teclado
   document.body.onkeydown = function(e) {
-  
+    
+    //A cada ação verifica o resultado exibido
     var resultado = document.getElementById('resultado').innerHTML;
 
-
+    //Função para verificar tamanho das strings da tela
     function verificarTamanho () {
         if(resultado.length == 15){
             alert('Essa calculadora não aceita mais números do que isso, tente calculos mais simples. Por favor não tente prosseguir inserindo mais números')
@@ -73,19 +70,24 @@ function calcular()
         }
     }
   
+    //For para poder trabalhar com os botoes de 0 a 9 de maneira mais facil
     for(let i= 0 ; i < 10 ; i++){
-        
+    
+
+    //Verifica se botoes de 0 a 9 foram precionados e executa as suas ações
     if (e.key == i){ 
         var numero = document.getElementById('resultado').innerHTML;
         document.getElementById('resultado').innerHTML = numero + i ;
         
         tecla = document.getElementById('tecla' +i)
         
+        //adiciona as classes para ter a sensação de ter clicado na tela
         tecla.classList.add("active")
 
         verificarTamanho()
     }}
 
+// Verificam se determinados botões foram pressionados
     if (e.key == "/"){ 
         var numero = document.getElementById('resultado').innerHTML;
         document.getElementById('resultado').innerHTML = numero + '/';
@@ -146,16 +148,17 @@ function calcular()
         calcular()
         verificarTamanho()
     }
-    setTimeout(removerClasse, 250);
+    //Sempre que apertar alguma classe após 0.2 segundos a função de remover as classes é chamada
+    setTimeout(removerClasse, 200);
   }
 
+// Função para remover as classes 
   function removerClasse(){
     for(let i = 0; i < 10; i++){
 
     const teclas = document.getElementById('tecla' + i)
     
     teclas.classList.remove('active') 
-
 }
     dividir.classList.remove('active') 
     vezes.classList.remove('active') 
@@ -165,62 +168,4 @@ function calcular()
     del.classList.remove('special')
     reset.classList.remove('special')
     igual.classList.remove('unico')
-
 }
-
-  
-    
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
