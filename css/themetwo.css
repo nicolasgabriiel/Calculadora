@@ -16,3 +16,7 @@ main{background-color: #E6E6E6;}
 .botoes-menores button:nth-child(4), .botoes-maiores button:first-child{background-color: #62B5BD;color: #F8FFFF ;border-color: #1E6169 ;}
 .botoes-menores button:nth-child(4):active, .botoes-maiores button:first-child:active{background-color: #1E6169 ;}
 .numeros-exibidos{color: #242424;}
+
+main > .corpo-calculadora > .container-baixo .special{background-color: #1E6169 ;}
+main > .corpo-calculadora > .container-baixo .unico{ background-color: #8F3800 ;}
+main > .corpo-calculadora > .container-baixo .active{background-color: #A69C92 ;}
