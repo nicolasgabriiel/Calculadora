@@ -143,7 +143,7 @@ function calcular()
         back()
     }
 
-    if (e.key == "="){ 
+    if (e.key == "=" || e.key == "Enter"){ 
         igual.classList.add('unico')
         calcular()
         verificarTamanho()
